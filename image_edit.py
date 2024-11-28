@@ -17,7 +17,7 @@ def apply_gaussian_blur(image_path, kernel_size=(5, 5)):
     image = cv2.imread(image_path)
     blurred_image = cv2.GaussianBlur(image, kernel_size, 0)
     return blurred_image
-
+# 
 # Использование
 file_path = "your_image.jpg"  # Путь к изображению
 
