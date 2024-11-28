@@ -22,7 +22,7 @@ def apply_gaussian_blur(image_path, kernel_size=(5, 5)):
 file_path = "your_image.jpg"  # Путь к изображению
 
 # Изменение размера
-resized = resize_image(file_path, 800, 800)
+resized = resize_image(file_path, 700, 700)
 cv2.imshow("Resized Image", resized)
 cv2.imwrite("resized_image.jpg", resized)
 
